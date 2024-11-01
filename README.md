@@ -39,3 +39,18 @@ Follow these steps to set up and run **Forever** locally.
    ```bash
    git clone https://github.com/your-username/forever-ecommerce.git
    cd forever-ecommerce
+
+2. **Create a .env file in the root folder and add the following variables**:
+  MONGODB_URI=your-mongodb-uri
+  STRIPE_SECRET_KEY=your-stripe-secret-key
+  RAZORPAY_KEY_ID=your-razorpay-key-id
+  RAZORPAY_KEY_SECRET=your-razorpay-key-secret
+
+forever-ecommerce/
+├── frontend/           # Frontend code
+├── backend/           # Backend code
+├── admin/           # Admin page code
+├── .env              # Environment variables
+└── README.md         # Project documentation
+
+
