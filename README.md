@@ -1,6 +1,11 @@
+<h1><a href="https://forever-e-commerce-ivory.vercel.app/" target="_blank">Live Demo</a></h1>
+
 # Forever - Full-Stack E-commerce Platform
 
 Welcome to **Forever**, a full-featured e-commerce platform built with modern web technologies. This project combines **TypeScript**, **React.js**, **Tailwind CSS**, **Node.js**, **Express**, and **MongoDB** with **Stripe** and **Razorpay** for payment processing. The platform aims to provide a seamless, responsive, and secure shopping experience.
+
+**Test User mail : test@gmail.com** <br/>
+**Test Password : qwerty1234**
 
 ## Features
 
