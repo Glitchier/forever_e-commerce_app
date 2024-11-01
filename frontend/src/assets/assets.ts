@@ -64,7 +64,11 @@ export type ContextType = {
   products: productType[];
   search?: string;
   setSearch?: React.Dispatch<React.SetStateAction<string>> | null;
-  addToCart?: (itemId: string, size: string, quantity: number) => Promise<void>;
+  addToCart?: (
+    itemId: string,
+    size: string,
+    quantity?: number
+  ) => Promise<void>;
   getCartCount?: () => number;
   cartItems: { [itemId: string]: Record<string, number> };
   updateQuantity: (

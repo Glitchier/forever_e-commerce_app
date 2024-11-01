@@ -6,7 +6,7 @@ import { productType } from "../assets/assets";
 
 const LatestCollection = () => {
   const { products } = useContext(ShopContext);
-  const [latestProducts, setLatestProducts] = useState<productType>([]);
+  const [latestProducts, setLatestProducts] = useState<productType[]>([]);
 
   useEffect(() => {
     setLatestProducts(products.slice(0, 10));

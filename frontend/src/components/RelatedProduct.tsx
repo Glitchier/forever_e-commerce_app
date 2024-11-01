@@ -12,7 +12,7 @@ const RelatedProduct = ({
   subCategory: string;
 }) => {
   const { products } = useContext(ShopContext);
-  const [related, setRelated] = useState<productType>([]);
+  const [related, setRelated] = useState<productType[]>([]);
 
   useEffect(() => {
     if (products.length > 0) {
