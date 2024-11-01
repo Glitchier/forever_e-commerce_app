@@ -40,11 +40,11 @@ Follow these steps to set up and run **Forever** locally.
    git clone https://github.com/your-username/forever-ecommerce.git
    cd forever-ecommerce
 
-2. **Create a .env file in the root folder and add the following variables**:
-   MONGODB_URI=your-mongodb-uri
-   STRIPE_SECRET_KEY=your-stripe-secret-key
-   RAZORPAY_KEY_ID=your-razorpay-key-id
-   RAZORPAY_KEY_SECRET=your-razorpay-key-secret
+2. **Create a .env file in the root folder and add the following variables**:<br/>
+   MONGODB_URI=your-mongodb-uri<br/>
+   STRIPE_SECRET_KEY=your-stripe-secret-key<br/>
+   RAZORPAY_KEY_ID=your-razorpay-key-id<br/>
+   RAZORPAY_KEY_SECRET=your-razorpay-key-secret<br/>
 
 forever-ecommerce/
 ├── frontend/           # Frontend code
