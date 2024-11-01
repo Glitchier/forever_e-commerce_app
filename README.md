@@ -1,4 +1,5 @@
-<h1><a href="https://forever-e-commerce-ivory.vercel.app/" target="_blank">Live Demo</a></h1>
+<h1><a href="https://forever-e-commerce-ivory.vercel.app/" target="_blank">Live Demo</a></h1><br/>
+<h3><a href="https://forever-admin-gamma.vercel.app/" target="_blank">Admin Dashboard</a></h3>
 
 # Forever - Full-Stack E-commerce Platform
 
@@ -6,6 +7,9 @@ Welcome to **Forever**, a full-featured e-commerce platform built with modern we
 
 **Test User mail : test@gmail.com** <br/>
 **Test Password : qwerty1234**
+
+**Admin mail : admin@forever.com** <br/>
+**Admin Password : Qwerty123**
 
 ## Features
 
