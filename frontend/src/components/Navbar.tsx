@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <nav
       id="nav"
-      className="flex justify-between items-center z-[99] min-w-fit gap-2 py-5 font-medium h-20 w-full"
+      className="fixed top-0 left-0 right-0 flex justify-between items-center z-[99] gap-2 py-5 font-medium h-20 px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] min-w-[400px] bg-white/50 backdrop-blur-lg"
     >
       <Link to={"/"}>
         <div id="logo" className="flex justify-center items-center gap-2">

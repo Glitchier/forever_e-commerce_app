@@ -80,7 +80,7 @@ const Collection = () => {
   }, [sortType]);
 
   return (
-    <div className="flex flex-col justify-center items-start gap-8 mt-10">
+    <div className="flex flex-col justify-center items-start gap-8 mt-14">
       <h1 className="text-xl flex justify-start gap-3 cursor-pointer items-center font-semibold uppercase tracking-wide font-Montserrat">
         Filters
         <LuSettings2

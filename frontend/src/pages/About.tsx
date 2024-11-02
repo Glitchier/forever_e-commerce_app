@@ -5,7 +5,7 @@ import Title from "../components/Title";
 const About = () => {
   return (
     <div>
-      <div className="text-2xl text-center pt-8 border-t">
+      <div className="text-2xl text-center pt-8 border-t mt-14">
         <Title txt1="About" txt2="Us" />
       </div>
       <div className="my-10 flex flex-col lg:flex-row gap-16">

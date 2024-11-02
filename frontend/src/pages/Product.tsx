@@ -49,7 +49,7 @@ const Product = () => {
   }, [fetchProductData]);
 
   return productData ? (
-    <div className="pt-10 w-full transition-opacity ease-in duration-300 opacity-100">
+    <div className="pt-10 w-full transition-opacity ease-in duration-300 opacity-100 mt-14">
       {/* Product Data */}
       <div className="flex flex-col sm:flex-row gap-12">
         {/* Product Image */}

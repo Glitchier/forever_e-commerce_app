@@ -19,7 +19,7 @@ const Hero = () => {
   return (
     <div
       id="main"
-      className="flex flex-col justify-center items-center w-full gap-6"
+      className="flex flex-col justify-center items-center mt-14 w-full gap-6"
     >
       <div className="grid grid-cols-12 gap-8 mx-auto">
         <div className="flex flex-col gap-3 md:gap-6 justify-center items-start capitalize col-span-full xl:col-span-4">
