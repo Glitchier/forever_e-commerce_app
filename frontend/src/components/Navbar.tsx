@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <nav
       id="nav"
-      className="fixed top-0 left-0 right-0 flex justify-between items-center z-[99] gap-2 py-5 font-medium h-20 px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] min-w-[400px] bg-white/50 backdrop-blur-lg"
+      className="fixed top-0 left-0 right-0 flex justify-between items-center z-[99] gap-2 py-5 font-medium h-20 px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] min-w-[360px] bg-white/50 backdrop-blur-lg"
     >
       <Link to={"/"}>
         <div id="logo" className="flex justify-center items-center gap-2">
@@ -123,8 +123,8 @@ const Navbar = () => {
       </div>
       {/* Sidebar Menu */}
       <div
-        className={`fixed z-[99] top-0 right-0 bottom-0 py-10 px-8 overflow-hidden bg-slate-200 duration-300 transition-all ${
-          visible ? "w-[300px] h-screen" : "w-0 hidden"
+        className={`fixed z-[99] top-0 h-screen right-0 bottom-0 py-10 px-8 overflow-hidden bg-slate-200 duration-300 transition-all ${
+          visible ? "w-[300px]" : "w-0 hidden"
         }`}
       >
         <div className="flex flex-col justify-start items-end gap-4">
