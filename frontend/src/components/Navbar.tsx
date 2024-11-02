@@ -124,7 +124,7 @@ const Navbar = () => {
       {/* Sidebar Menu */}
       <div
         className={`fixed z-[99] top-0 right-0 bottom-0 py-10 px-8 overflow-hidden bg-slate-200 duration-300 transition-all ${
-          visible ? "w-[300px]" : "w-0 hidden"
+          visible ? "w-[300px] h-screen" : "w-0 hidden"
         }`}
       >
         <div className="flex flex-col justify-start items-end gap-4">
