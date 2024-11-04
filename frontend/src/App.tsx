@@ -12,7 +12,6 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { Suspense } from "react";
 import Loading from "./components/Loading";
-import SearchBar from "./components/SearchBar";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Verify from "./pages/Verify";
@@ -26,7 +25,6 @@ const App = () => {
       <ToastContainer />
       <Suspense fallback={<Loading />}>
         <Navbar />
-        <SearchBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/collection" element={<Collection />} />

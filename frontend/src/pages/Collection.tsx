@@ -4,6 +4,7 @@ import { LuSettings2 } from "react-icons/lu";
 import Title from "../components/Title";
 import { productType } from "../assets/assets";
 import ProductItem from "../components/ProductItem";
+import SearchBar from "../components/SearchBar";
 
 const Collection = () => {
   const { products, search } = useContext(ShopContext);
@@ -81,6 +82,7 @@ const Collection = () => {
 
   return (
     <div className="flex flex-col justify-center items-start gap-8 mt-14">
+      <SearchBar />
       <h1 className="text-xl flex justify-start gap-3 cursor-pointer items-center font-semibold uppercase tracking-wide font-Montserrat">
         Filters
         <LuSettings2
